@@ -6,7 +6,7 @@ import noodleImage from "@/assets/noodle.png";
 
 export const Hero = () => {
   return (
-    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183ec2,#eaeefe)] overflow-clip">
+    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183ec2,#eaeefe)] overflow-x-clip">
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
@@ -46,7 +46,7 @@ export const Hero = () => {
               src={noodleImage}
               width={220}
               alt="Noodle image"
-              className="hidden lg:block top-[524px] left-[448px] absolute rotate-[30deg]"
+              className="hidden lg:block top-[524px] left-[448px] absolute rotate-[30deg] "
             />
           </div>
         </div>
