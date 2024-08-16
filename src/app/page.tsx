@@ -1,3 +1,4 @@
+import { LogoTicker } from "@/components/LogoTicker";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <Hero />
+      <LogoTicker />
     </div>
   );
 }
